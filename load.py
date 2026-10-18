@@ -16,7 +16,7 @@ blob = service.get_blob_client(
     blob="employee_transformed.csv"
 )
 
-with open("output/employee_transformed.csv", "rb") as data:
+with open("/home/azureuser/ethans-1124/output/employee_transformed.csv", "rb") as data:
     blob.upload_blob(
         data,
         overwrite=True

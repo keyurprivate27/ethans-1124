@@ -14,7 +14,7 @@ az storage blob download \
     --account-name ethans1124etl \
     --container-name input \
     --name employee.csv \
-    --file ./input/employee.csv \
+    --file /home/azureuser/ethans-1124/input/employee.csv \
     --auth-mode login
 
 echo "File Downloaded Successfully..."

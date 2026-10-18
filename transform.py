@@ -25,7 +25,7 @@ df["Bonus"] = df["Salary"] * 0.10
 # Total Package
 df["TotalPackage"] = df["AnnualSalary"] + df["Bonus"]
 
-df.to_csv("output/employee_transformed.csv", index=False)
+df.to_csv("/home/azureuser/ethans-1124/output/employee_transformed.csv", index=False)
 
 print(df)
 print("Transformation completed.")
