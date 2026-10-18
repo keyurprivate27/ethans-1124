@@ -3,7 +3,7 @@ import os
 
 os.makedirs("output", exist_ok=True)
 
-df = pd.read_csv("input/employee.csv")
+df = pd.read_csv("/home/azureuser/ethans-1124/input/employee.csv")
 
 # Add Annual Salary
 df["AnnualSalary"] = df["Salary"] * 12

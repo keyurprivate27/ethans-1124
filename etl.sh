@@ -13,9 +13,9 @@ source etl-env/bin/activate
 pip install -r /home/azureuser/ethans-1124/requirements.txt
 
 if [ $action_type == "transform" ];then
-	python3 transform.py
+	python3 /home/azureuser/ethans-1124/transform.py
 elif [ $action_type == "load" ];then
-	python3 load.py
+	python3 /home/azureuser/ethans-1124/load.py
 else
 	echo "Invalid Action Type..."
 fi
